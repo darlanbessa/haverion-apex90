@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlTag">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="facebook-domain-verification" content="kma9ajmredhd2gucqrb5wne4q9sivf" />
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '725575567185839');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=725575567185839&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Google Analytics GA4 — ADD YOUR REAL ID HERE -->
+    <!-- Replace G-XXXXXXXXXX with your actual Google Analytics 4 Measurement ID -->
+    <!-- Get it at: analytics.google.com → Admin → Data Streams -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    -->
+
+    <meta name="description"
+        content="PROJECT APEX 90 — The elite 90-day body transformation system for fat loss, muscle gain, and high performance. Join 347+ people who already started.">
+    <meta name="keywords"
+        content="fitness program, 90 day transformation, fat loss, muscle gain, hypertrophy, body transformation system, Project Apex 90">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Project APEX 90">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://haverion.com">
+    <meta property="og:title" content="PROJECT APEX 90 | Rebuild Your Body in 90 Days">
+    <meta property="og:description"
+        content="The structured system that eliminates randomness and builds real discipline. 90 days or stay exactly where you are.">
+    <meta property="og:image" content="https://haverion.com/assets/hero_bg.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="pt_BR">
+    <meta property="og:locale:alternate" content="es_ES">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PROJECT APEX 90 | Rebuild Your Body in 90 Days">
+    <meta name="twitter:description" content="The elite 90-day body transformation system. Fat loss, muscle gain, and peak performance.">
+    <meta name="twitter:image" content="https://haverion.com/assets/hero_bg.png">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://haverion.com">
+
+    <title>PROJECT APEX 90 | Rebuild Your Body in 90 Days</title>
+
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PROJECT APEX 90",
+        "description": "The elite 90-day body transformation system for fat loss, muscle gain, and high performance.",
+        "url": "https://haverion.com",
+        "image": "https://haverion.com/assets/hero_bg.png",
+        "brand": {
+            "@type": "Brand",
+            "name": "APEX 90"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "47.00",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": "https://pay.kiwify.com/jpOfz3C"
+        },
+        "description": "The elite 90-day body transformation system for fat loss, muscle gain, and high performance."
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@500;600;700&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+
+    <!-- LANG SWITCHER -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" id="langBtn-en" onclick="changeLanguage('en')">🇺🇸 EN</button>
+        <button class="lang-btn" id="langBtn-pt" onclick="changeLanguage('pt')">🇧🇷 PT</button>
+        <button class="lang-btn" id="langBtn-es" onclick="changeLanguage('es')">🇪🇸 ES</button>
+    </div>
+
+    <!-- FLOATING CTA BAR -->
+    <div class="floating-cta" id="floatingCta">
+        <div class="container floating-container">
+            <span class="floating-text font-rajdhani hidden-mobile" data-i18n="float_bar_text">90-DAY
+                TRANSFORMATION</span>
+            <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary btn-float" id="floatCtaBtn"
+                data-i18n="btn_enter">ENTER APEX 90</a>
+        </div>
+    </div>
+
+    <!-- ====================== HERO ====================== -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-noise"></div>
+
+        <!-- Countdown ribbon -->
+        <div class="hero-ribbon" data-i18n="hero_ribbon">⚡ LIMITED ACCESS — PRICE INCREASES SOON ⚡</div>
+
+        <div class="container hero-content" id="heroContent">
+
+            <div class="hero-eyebrow" data-aos="fade-down" data-aos-duration="600">
+                <span class="eyebrow-badge" data-i18n="hero_eyebrow">ELITE 90-DAY SYSTEM</span>
+            </div>
+
+            <h1 class="hero-title" data-aos="fade-up" data-aos-duration="800" data-i18n="hero_title">
+                REBUILD YOUR BODY<br>IN <span class="text-accent">90 DAYS</span><br>OR STAY EXACTLY<br>WHERE YOU ARE
+            </h1>
+
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100"
+                data-i18n="hero_sub">
+                APEX 90 is the structured training system that eliminates randomness, builds iron discipline, and
+                transforms your body through science-backed fat loss, muscle gain, and peak performance protocols.
+            </p>
+
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary btn-hero btn-pulse" id="heroCta"
+                    data-i18n="btn_enter">
+                    ENTER APEX 90
+                </a>
+            </div>
+
+            <!-- Social Proof -->
+            <div class="social-proof" data-aos="fade-up" data-aos-delay="350" data-i18n="social_proof">
+                ⚡ Launch price — join before it increases
+            </div>
+
+            <!-- Stats Row -->
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="450">
+                <div class="stat-item">
+                    <span class="stat-num">90</span>
+                    <span class="stat-label" data-i18n="stat_days">DAYS</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">12</span>
+                    <span class="stat-label" data-i18n="stat_modules">MODULES</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">4+</span>
+                    <span class="stat-label" data-i18n="stat_bonuses">BONUSES</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll-cue">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ====================== THE PROBLEM ====================== -->
+    <section class="section bg-near-black" id="truth">
+        <div class="container">
+            <div class="split-layout align-center">
+
+                <div class="split-content" data-aos="fade-right" data-aos-duration="800">
+                    <div class="section-label" data-i18n="truth_label">THE TRUTH</div>
+                    <h2 class="section-title" data-i18n="truth_title">WHY MOST PEOPLE NEVER TRANSFORM</h2>
+
+                    <div class="highlight-box" data-aos="fade-right" data-aos-delay="100">
+                        <p class="highlight-text" data-i18n="truth_box_1">You are not without results because you lack
+                            effort.</p>
+                        <p class="highlight-accent" data-i18n="truth_box_2">You are without results because you never
+                            followed a real system.</p>
+                    </div>
+
+                    <ul class="problem-list">
+                        <li data-aos="fade-right" data-aos-delay="150" data-i18n="truth_li_1">
+                            <span class="problem-icon"><i data-feather="x"></i></span>
+                            <span>Random workouts with zero structure</span>
+                        </li>
+                        <li data-aos="fade-right" data-aos-delay="200" data-i18n="truth_li_2">
+                            <span class="problem-icon"><i data-feather="x"></i></span>
+                            <span>No progressive training protocol</span>
+                        </li>
+                        <li data-aos="fade-right" data-aos-delay="250" data-i18n="truth_li_3">
+                            <span class="problem-icon"><i data-feather="x"></i></span>
+                            <span>Inconsistent discipline and execution</span>
+                        </li>
+                        <li data-aos="fade-right" data-aos-delay="300" data-i18n="truth_li_4">
+                            <span class="problem-icon"><i data-feather="x"></i></span>
+                            <span>No long-term evolution system</span>
+                        </li>
+                    </ul>
+
+                    <p class="truth-conclusion" data-i18n="truth_end" data-aos="fade-right" data-aos-delay="350">
+                        That approach never builds an elite physique. <span class="text-accent">APEX 90 does.</span>
+                    </p>
+
+                    <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary mt-8" data-i18n="btn_enter">ENTER
+                        APEX 90</a>
+                </div>
+
+                <div class="split-image" data-aos="fade-left" data-aos-duration="900">
+                    <div class="image-frame">
+                        <img src="assets/frustrated.png" alt="Man frustrated with lack of training results"
+                            class="cinematic-img" loading="lazy">
+                        <div class="image-label" data-i18n="img_label_before">WITHOUT A SYSTEM</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== WHO THIS IS FOR ====================== -->
+    <section class="section bg-charcoal" id="who-is-for">
+        <div class="container text-center">
+            <div class="section-label" data-i18n="who_label">BUILT FOR YOU</div>
+            <h2 class="section-title centered" data-aos="fade-up" data-i18n="who_title">WHO THIS IS FOR</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100" data-i18n="who_sub">Three paths. One
+                system. Zero excuses.</p>
+
+            <div class="who-grid" data-aos="fade-up" data-aos-delay="150">
+
+                <!-- MEN -->
+                <div class="who-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="who-img-wrap">
+                        <img src="assets/muscle_gain.png" alt="Male athlete building muscle and losing fat"
+                            class="who-img" loading="lazy">
+                        <div class="who-img-overlay"></div>
+                        <div class="who-tag" data-i18n="who_men_tag">FOR MEN</div>
+                    </div>
+                    <div class="who-body">
+                        <h3 class="who-title" data-i18n="who_men_title">MEN</h3>
+                        <ul class="who-benefits">
+                            <li><i data-feather="chevron-right"></i> <span data-i18n="who_men_b1">Build dense muscle
+                                    mass</span></li>
+                            <li><i data-feather="chevron-right"></i> <span data-i18n="who_men_b2">Eliminate body
+                                    fat</span></li>
+                            <li><i data-feather="chevron-right"></i> <span data-i18n="who_men_b3">Elite performance
+                                    physique</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- WOMEN -->
+                <div class="who-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="who-img-wrap">
+                        <img src="assets/fit_woman.png" alt="Female athlete with lean toned body" class="who-img" loading="lazy">
+                        <div class="who-img-overlay"></div>
+                        <div class="who-tag" data-i18n="who_women_tag">FOR WOMEN</div>
+                    </div>
+                    <div class="who-body">
+                        <h3 class="who-title" data-i18n="who_women_title">WOMEN</h3>
+                        <ul class="who-benefits">
+                            <li><i data-feather="chevron-right"></i> <span data-i18n="who_women_b1">Strategic fat
+                                    loss</span></li>
+                            <li><i data-feather="chevron-right"></i> <span data-i18n="who_women_b2">Lean toned
+                                    body</span></li>
+                            <li><i data-feather="chevron-right"></i> <span data-i18n="who_women_b3">Strength and
+                                    confidence</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 50+ -->
+                <div class="who-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="who-img-wrap">
+                        <img src="assets/disciplined.png" alt="50+ adult training with strength and mobility"
+                            class="who-img" loading="lazy">
+                        <div class="who-img-overlay"></div>
+                        <div class="who-tag" data-i18n="who_50_tag">FOR 50+</div>
+                    </div>
+                    <div class="who-body">
+                        <h3 class="who-title" data-i18n="who_50_title">50+</h3>
+                        <ul class="who-benefits">
+                            <li><i data-feather="chevron-right"></i> <span data-i18n="who_50_b1">Functional
+                                    strength</span></li>
+                            <li><i data-feather="chevron-right"></i> <span data-i18n="who_50_b2">Mobility and injury
+                                    prevention</span></li>
+                            <li><i data-feather="chevron-right"></i> <span data-i18n="who_50_b3">Longevity and
+                                    vitality</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-10" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary" data-i18n="btn_enter">ENTER APEX
+                    90</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== WHAT IS APEX 90 ====================== -->
+    <section class="section bg-near-black" id="what-is">
+        <div class="container">
+            <div class="text-center mb-section">
+                <div class="section-label" data-i18n="what_label">THE SYSTEM</div>
+                <h2 class="section-title centered" data-aos="fade-up" data-i18n="what_title">WHAT IS PROJECT APEX 90
+                </h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100" data-i18n="what_sub">
+                    A complete, structured body transformation system engineered for fat loss, muscle gain, performance,
+                    and unbreakable discipline — in exactly 90 days.
+                </p>
+            </div>
+
+            <div class="system-grid">
+                <div class="system-card" data-aos="fade-up" data-aos-delay="50">
+                    <div class="system-icon"><i data-feather="layers"></i></div>
+                    <h3 data-i18n="what_card_1">Structured Workouts by Level</h3>
+                    <p data-i18n="what_card_1_desc">Progressive protocols for beginner, intermediate, and advanced
+                        athletes.</p>
+                </div>
+                <div class="system-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="system-icon"><i data-feather="activity"></i></div>
+                    <h3 data-i18n="what_card_2">Fat Loss Strategy</h3>
+                    <p data-i18n="what_card_2_desc">Science-based approach to maximizing fat oxidation while preserving
+                        muscle.</p>
+                </div>
+                <div class="system-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="system-icon"><i data-feather="trending-up"></i></div>
+                    <h3 data-i18n="what_card_3">Hypertrophy Protocols</h3>
+                    <p data-i18n="what_card_3_desc">Elite muscle-building techniques used by high-performance athletes.
+                    </p>
+                </div>
+                <div class="system-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="system-icon"><i data-feather="pie-chart"></i></div>
+                    <h3 data-i18n="what_card_4">Complete Nutrition System</h3>
+                    <p data-i18n="what_card_4_desc">Precision nutrition planning for your goal — lean mass, fat loss, or
+                        performance.</p>
+                </div>
+                <div class="system-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="system-icon"><i data-feather="shield"></i></div>
+                    <h3 data-i18n="what_card_5">Supplement Intelligence</h3>
+                    <p data-i18n="what_card_5_desc">What to take, what to skip, and how to maximize your results with
+                        supplements.</p>
+                </div>
+                <div class="system-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="system-icon"><i data-feather="crosshair"></i></div>
+                    <h3 data-i18n="what_card_6">Discipline Framework</h3>
+                    <p data-i18n="what_card_6_desc">The mental architecture that makes consistency automatic, not
+                        optional.</p>
+                </div>
+            </div>
+
+            <div class="hero-image-section" data-aos="zoom-in" data-aos-delay="100">
+                <img src="assets/heavy_lift.png" alt="Athlete performing heavy training with the APEX 90 system"
+                    class="cinematic-img section-img" loading="lazy">
+            </div>
+
+            <div class="text-center mt-10" data-aos="fade-up">
+                <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary" data-i18n="btn_enter">ENTER APEX
+                    90</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== HOW IT WORKS ====================== -->
+    <section class="section bg-charcoal" id="how-it-works">
+        <div class="container">
+            <div class="text-center mb-section">
+                <div class="section-label" data-i18n="how_label">THE PROTOCOL</div>
+                <h2 class="section-title centered" data-aos="fade-up" data-i18n="how_title">HOW THE SYSTEM WORKS</h2>
+            </div>
+
+            <div class="steps-container">
+                <div class="step-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-num">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-i18n="how_1">Access Your Members Area</h3>
+                        <p data-i18n="how_1_desc">Instant access delivered to your email. Available on any device,
+                            anywhere in the world.</p>
+                    </div>
+                </div>
+
+                <div class="step-connector" aria-hidden="true"></div>
+
+                <div class="step-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-num">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-i18n="how_2">Choose Your Level</h3>
+                        <p data-i18n="how_2_desc">Beginner, Intermediate, or Advanced. The system adapts to where you
+                            are right now.</p>
+                    </div>
+                </div>
+
+                <div class="step-connector" aria-hidden="true"></div>
+
+                <div class="step-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-num">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-i18n="how_3">Follow the Training Protocol</h3>
+                        <p data-i18n="how_3_desc">Execute the structured workouts, nutrition, and discipline framework
+                            with zero guessing.</p>
+                    </div>
+                </div>
+
+                <div class="step-connector" aria-hidden="true"></div>
+
+                <div class="step-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-num">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-i18n="how_4">Execute Daily for 90 Days</h3>
+                        <p data-i18n="how_4_desc">Show up. Execute. Track. Repeat. In 90 days, you will not recognize
+                            the person you've become.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="manifesto-block" data-aos="fade-up" data-aos-delay="200">
+                <p data-i18n="how_mani_1">No guessing.</p>
+                <p data-i18n="how_mani_2">No confusion.</p>
+                <p class="text-accent" data-i18n="how_mani_3">No dependence on motivation.</p>
+            </div>
+
+            <div class="text-center mt-10" data-aos="fade-up">
+                <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary" data-i18n="btn_enter">ENTER APEX
+                    90</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== WHAT YOU RECEIVE ====================== -->
+    <section class="section bg-near-black" id="modules">
+        <div class="container">
+            <div class="text-center mb-section">
+                <div class="section-label" data-i18n="recv_label">INSIDE APEX 90</div>
+                <h2 class="section-title centered" data-aos="fade-up" data-i18n="recv_title">WHAT YOU RECEIVE</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100" data-i18n="recv_sub">
+                    11 complete modules engineered to rebuild your body from the ground up.
+                </p>
+            </div>
+
+            <div class="modules-grid">
+                <div class="module-card" data-aos="fade-up" data-aos-delay="50">
+                    <span class="module-num">M1</span>
+                    <div class="module-info">
+                        <h3 data-i18n="recv_1">Physical Reconstruction Foundations</h3>
+                        <p data-i18n="recv_1_desc">The science of body composition change, set the right goals and
+                            execute with precision.</p>
+                    </div>
+                </div>
+                <div class="module-card" data-aos="fade-up" data-aos-delay="100">
+                    <span class="module-num">M2</span>
+                    <div class="module-info">
+                        <h3 data-i18n="recv_2">Training Protocols by Level</h3>
+                        <p data-i18n="recv_2_desc">Structured weekly workout plans for all levels — never guess again.
+                        </p>
+                    </div>
+                </div>
+                <div class="module-card" data-aos="fade-up" data-aos-delay="150">
+                    <span class="module-num">M3</span>
+                    <div class="module-info">
+                        <h3 data-i18n="recv_3">Strategic Hypertrophy</h3>
+                        <p data-i18n="recv_3_desc">Build maximum muscle with progressive overload and optimal recovery
+                            windows.</p>
+                    </div>
+                </div>
+                <div class="module-card" data-aos="fade-up" data-aos-delay="200">
+                    <span class="module-num">M4</span>
+                    <div class="module-info">
+                        <h3 data-i18n="recv_4">Fat Loss Strategy</h3>
+                        <p data-i18n="recv_4_desc">The strategic framework for sustainable, rapid fat elimination
+                            without losing muscle.</p>
+                    </div>
+                </div>
+                <div class="module-card" data-aos="fade-up" data-aos-delay="250">
+                    <span class="module-num">M5</span>
+                    <div class="module-info">
+                        <h3 data-i18n="recv_5">Muscle Nutrition</h3>
+                        <p data-i18n="recv_5_desc">Fueling protocols for maximum performance, recovery, and muscle
+                            synthesis.</p>
+                    </div>
+                </div>
+                <div class="module-card" data-aos="fade-up" data-aos-delay="300">
+                    <span class="module-num">M6</span>
+                    <div class="module-info">
+                        <h3 data-i18n="recv_6">Supplement Intelligence</h3>
+                        <p data-i18n="recv_6_desc">What works, what doesn't, and how to optimize without wasting money.
+                        </p>
+                    </div>
+                </div>
+                <div class="module-card" data-aos="fade-up" data-aos-delay="350">
+                    <span class="module-num">M7</span>
+                    <div class="module-info">
+                        <h3 data-i18n="recv_7">Cardio Strategy</h3>
+                        <p data-i18n="recv_7_desc">The exact cardio protocols that accelerate fat loss without killing
+                            your gains.</p>
+                    </div>
+                </div>
+                <div class="module-card" data-aos="fade-up" data-aos-delay="400">
+                    <span class="module-num">M8</span>
+                    <div class="module-info">
+                        <h3 data-i18n="recv_8">Mobility & Injury Prevention</h3>
+                        <p data-i18n="recv_8_desc">Train hard, stay injury-free. The longevity protocols for elite
+                            performance.</p>
+                    </div>
+                </div>
+                <div class="module-card" data-aos="fade-up" data-aos-delay="450">
+                    <span class="module-num">M9</span>
+                    <div class="module-info">
+                        <h3 data-i18n="recv_9">APEX Discipline System</h3>
+                        <p data-i18n="recv_9_desc">The mental architecture of elite performers. Build habits that
+                            execute automatically.</p>
+                    </div>
+                </div>
+                <div class="module-card" data-aos="fade-up" data-aos-delay="500">
+                    <span class="module-num">M10</span>
+                    <div class="module-info">
+                        <h3 data-i18n="recv_10">Progress Tracking System</h3>
+                        <p data-i18n="recv_10_desc">Measure everything. Track your evolution week by week with precision
+                            metrics.</p>
+                    </div>
+                </div>
+                <div class="module-card" data-aos="fade-up" data-aos-delay="550">
+                    <span class="module-num">M11</span>
+                    <div class="module-info">
+                        <h3 data-i18n="recv_11">12-Month Evolution Plan</h3>
+                        <p data-i18n="recv_11_desc">After 90 days, the journey continues. Your long-term transformation
+                            roadmap.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-access-banner" data-aos="zoom-in" data-aos-delay="100">
+                <div class="access-icon"><i data-feather="smartphone"></i></div>
+                <div class="access-text">
+                    <strong data-i18n="access_title">Instant Digital Access</strong>
+                    <span data-i18n="access_sub">Available on mobile, tablet, and desktop — start today</span>
+                </div>
+                <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary btn-sm" data-i18n="btn_enter">ACCESS
+                    NOW</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== BONUSES ====================== -->
+    <section class="section bg-charcoal" id="bonuses">
+        <div class="container">
+            <div class="text-center mb-section">
+                <div class="section-label" data-i18n="bonus_label">INCLUDED FREE</div>
+                <h2 class="section-title centered" data-aos="fade-up" data-i18n="bonus_title">EXCLUSIVE BONUSES</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100" data-i18n="bonus_sub">Included at no
+                    extra cost when you join today.</p>
+            </div>
+
+            <div class="bonuses-grid">
+                <div class="bonus-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bonus-img-wrap">
+                        <div class="bonus-img bbg-1"></div>
+                        <div class="bonus-number">#1</div>
+                    </div>
+                    <div class="bonus-body">
+                        <span class="bonus-badge" data-i18n="bonus_badge">FREE BONUS</span>
+                        <h3 class="bonus-title" data-i18n="bonus_1">APEX NUTRITION PROTOCOL</h3>
+                        <p data-i18n="bonus_1_desc">The complete meal planning guide synced to your training phase for
+                            maximum results.</p>
+                    </div>
+                </div>
+
+                <div class="bonus-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bonus-img-wrap">
+                        <div class="bonus-img bbg-2"></div>
+                        <div class="bonus-number">#2</div>
+                    </div>
+                    <div class="bonus-body">
+                        <span class="bonus-badge" data-i18n="bonus_badge">FREE BONUS</span>
+                        <h3 class="bonus-title" data-i18n="bonus_2">DISCIPLINE MINDSET</h3>
+                        <p data-i18n="bonus_2_desc">The psychological framework of elite athletes. Build the mindset
+                            that never quits.</p>
+                    </div>
+                </div>
+
+                <div class="bonus-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bonus-img-wrap">
+                        <div class="bonus-img bbg-3"></div>
+                        <div class="bonus-number">#3</div>
+                    </div>
+                    <div class="bonus-body">
+                        <span class="bonus-badge" data-i18n="bonus_badge">FREE BONUS</span>
+                        <h3 class="bonus-title" data-i18n="bonus_3">METABOLIC ACCELERATION</h3>
+                        <p data-i18n="bonus_3_desc">Advanced techniques to spike your metabolism and accelerate fat
+                            burning 24/7.</p>
+                    </div>
+                </div>
+
+                <div class="bonus-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bonus-img-wrap">
+                        <div class="bonus-img bbg-4"></div>
+                        <div class="bonus-number">#4</div>
+                    </div>
+                    <div class="bonus-body">
+                        <span class="bonus-badge" data-i18n="bonus_badge">FREE BONUS</span>
+                        <h3 class="bonus-title" data-i18n="bonus_4">HIGH PERFORMANCE HABITS</h3>
+                        <p data-i18n="bonus_4_desc">The daily routines and habits of the world's top-performing athletes
+                            and executives.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="value-banner" data-aos="zoom-in" data-aos-delay="200">
+                <p class="value-label" data-i18n="bonus_value_label">TOTAL VALUE:</p>
+                <p class="value-amount">$<span class="value-cross">932</span> → <span class="text-accent"
+                        data-i18n="bonus_value_price">YOURS FREE</span></p>
+            </div>
+
+            <div class="text-center mt-8" data-aos="fade-up">
+                <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary" data-i18n="btn_enter">ENTER APEX
+                    90</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== TRANSFORMATION BENEFITS ====================== -->
+    <section class="section bg-near-black" id="transformation">
+        <div class="container">
+            <div class="text-center mb-section">
+                <div class="section-label" data-i18n="build_label">THE RESULT</div>
+                <h2 class="section-title centered" data-aos="fade-up" data-i18n="build_title">WHAT THIS SYSTEM BUILDS
+                </h2>
+            </div>
+
+            <div class="transform-grid">
+                <div class="t-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/fat_loss.png" alt="Fat loss transformation result" loading="lazy">
+                    <div class="t-label" data-i18n="build_1">FAT LOSS</div>
+                </div>
+                <div class="t-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/muscle_gain.png" alt="Muscle gain physique result" loading="lazy">
+                    <div class="t-label" data-i18n="build_2">MUSCLE GAIN</div>
+                </div>
+                <div class="t-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="assets/disciplined.png" alt="Disciplined elite athlete" loading="lazy">
+                    <div class="t-label" data-i18n="build_3">DISCIPLINE</div>
+                </div>
+            </div>
+
+            <div class="benefits-row" data-aos="fade-up" data-aos-delay="200">
+                <div class="benefit-chip" data-i18n="build_li_1"><i data-feather="check-circle"></i> Stronger body</div>
+                <div class="benefit-chip" data-i18n="build_li_2"><i data-feather="check-circle"></i> Higher energy</div>
+                <div class="benefit-chip" data-i18n="build_li_3"><i data-feather="check-circle"></i> Iron discipline
+                </div>
+                <div class="benefit-chip" data-i18n="build_li_4"><i data-feather="check-circle"></i> Better lifestyle
+                </div>
+                <div class="benefit-chip" data-i18n="build_li_5"><i data-feather="check-circle"></i> Consistent
+                    evolution</div>
+                <div class="benefit-chip" data-i18n="build_li_6"><i data-feather="check-circle"></i> Peak performance
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== ELITE FRAMEWORK (AUTHORITY) ====================== -->
+    <section class="section bg-charcoal text-center" id="authority">
+        <div class="container" data-aos="fade-up">
+            <div class="section-label" data-i18n="auth_label">BUILT FROM THE BEST</div>
+            <h2 class="section-title centered" data-i18n="auth_title">ELITE FRAMEWORK</h2>
+            <p class="authority-text font-rajdhani text-uppercase" data-i18n="auth_text">
+                THIS SYSTEM WAS BUILT FROM THE TRAINING PRINCIPLES USED BY HIGH-PERFORMANCE ATHLETES, ELITE FITNESS
+                PROTOCOLS, AND PEAK PERFORMANCE SCIENCE.
+            </p>
+
+            <div class="elite-img-wrap" data-aos="zoom-in">
+                <img src="assets/elite.png" alt="Elite athlete at peak performance" class="cinematic-img elite-img" loading="lazy">
+                <div class="elite-img-overlay"></div>
+            </div>
+
+            <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary mt-10" data-i18n="btn_enter">ENTER APEX
+                90</a>
+        </div>
+    </section>
+
+    <!-- ====================== FOUNDER STORY ====================== -->
+    <section class="section bg-charcoal" id="founder">
+        <div class="container">
+            <div class="split-layout align-center">
+
+                <div class="split-content" data-aos="fade-right" data-aos-duration="800">
+                    <div class="section-label" data-i18n="founder_label">MEET THE CREATOR</div>
+                    <h2 class="section-title" data-i18n="founder_title">THE MIND BEHIND APEX 90</h2>
+
+                    <p class="truth-conclusion" data-i18n="founder_p1" data-aos="fade-right" data-aos-delay="100">
+                        My name is Lucas Bresan. I've been a personal trainer for over 12 years. And in that time, I've watched thousands of people walk through gym doors with fire in their eyes — ready to change everything.
+                    </p>
+                    <p class="truth-conclusion" data-i18n="founder_p2" data-aos="fade-right" data-aos-delay="150">
+                        Most of them quit within 60 days. Not because they were lazy. Not because they didn't want it bad enough. But because nobody gave them a real system.
+                    </p>
+                    <p class="truth-conclusion" data-i18n="founder_p3" data-aos="fade-right" data-aos-delay="200">
+                        I watched a 34-year-old father bust his ass for 6 months and gain almost nothing. I watched a 28-year-old woman lose 11 pounds, then gain it all back. I watched a 52-year-old man end up injured — and never come back.
+                    </p>
+                    <p class="truth-conclusion" data-i18n="founder_p4" data-aos="fade-right" data-aos-delay="250">
+                        That broke me. So I spent 3 years building what I wish every one of them had on day one.
+                    </p>
+                    <p class="truth-conclusion" data-i18n="founder_p5" data-aos="fade-right" data-aos-delay="300">
+                        Not a collection of workouts. Not a diet plan. A complete 90-day reconstruction system.
+                    </p>
+
+                    <p class="highlight-accent mt-8" data-i18n="founder_sig" data-aos="fade-right" data-aos-delay="350">
+                        — Lucas Bresan, Creator of APEX 90
+                    </p>
+                </div>
+
+                <div class="split-image" data-aos="fade-left" data-aos-duration="900">
+                    <div class="image-frame">
+                        <img src="assets/lucas_bresan.png" alt="Lucas Bresan - Personal Trainer APEX 90"
+                            class="cinematic-img" loading="lazy">
+                        <div class="image-label" data-i18n="founder_name">Lucas Bresan — 12+ Years Training</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== MICRO COMMITMENT ====================== -->
+    <section class="section section-dark-cta text-center" id="micro-commit">
+        <div class="container" data-aos="zoom-in">
+            <h2 class="dark-cta-title" data-i18n="micro_title">ARE YOU READY TO EXECUTE?</h2>
+            <p class="dark-cta-sub" data-i18n="micro_sub">Discipline over motivation. System over randomness. Results
+                over excuses.</p>
+            <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary btn-hero btn-pulse" id="microCtaBtn"
+                data-i18n="btn_ready">YES — I'M READY</a>
+        </div>
+    </section>
+
+    <!-- ====================== GUARANTEE ====================== -->
+    <section class="section guarantee-section text-center" id="guarantee">
+        <div class="container">
+            <div class="guarantee-card" data-aos="zoom-in">
+                <div class="guarantee-badge-wrap">
+                    <div class="guarantee-badge-outer">
+                        <div class="guarantee-badge-inner">
+                            <i data-feather="shield" class="guarantee-shield"></i>
+                            <span class="guarantee-days">30</span>
+                            <span class="guarantee-text-sm" data-i18n="guar_badge_sub">DAY GUARANTEE</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="section-title" data-i18n="guar_title">30-DAY MONEY-BACK GUARANTEE</h2>
+                <p class="guarantee-desc" data-i18n="guar_text">
+                    Follow the system for 30 days. If you don't feel stronger, leaner, and more disciplined than when you started — email us and get every cent back. No questions. No forms. No hassle.
+                </p>
+                <p class="guarantee-bold" data-i18n="guar_sub">Zero risk. Full protection.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== PRICING ====================== -->
+    <section class="section bg-near-black pricing-section" id="pricing">
+        <div class="pricing-glow" aria-hidden="true"></div>
+        <div class="container text-center">
+            <div class="section-label" data-i18n="price_label">GET STARTED TODAY</div>
+            <h2 class="section-title centered" data-aos="fade-up" data-i18n="price_title">YOUR INVESTMENT</h2>
+
+            <div class="pricing-card" data-aos="zoom-in" data-aos-delay="100">
+
+                <div class="price-tag-row">
+                    <span class="price-was-label" data-i18n="price_was">WAS</span>
+                    <span class="price-old" data-i18n="price_old">$150.00</span>
+                </div>
+
+                <div class="price-new-row">
+                    <span class="price-currency">$</span>
+                    <span class="price-amount">47</span>
+                    <span class="price-cents">.00</span>
+                </div>
+
+                <p class="price-urgency blink-animation" data-i18n="price_warn">
+                    <i data-feather="alert-triangle" class="inline-icon"></i>
+                    ACCESS MAY CLOSE AT ANY TIME
+                </p>
+
+                <!-- COUNTDOWN TIMER -->
+                <div id="countdownWrapper" style="margin: 16px 0; text-align: center;">
+                    <p style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: #aaa; margin-bottom: 8px;" data-i18n="countdown_label">Price increases in:</p>
+                    <div style="display: flex; justify-content: center; align-items: center; gap: 8px; font-family: 'Bebas Neue', sans-serif;">
+                        <div style="background: #1a1a1a; border: 1px solid #333; border-radius: 6px; padding: 8px 14px; text-align: center; min-width: 64px;">
+                            <span id="cdHours" style="font-size: 2rem; color: #e63329; display: block; line-height: 1;">48</span>
+                            <span style="font-size: 0.65rem; color: #888; letter-spacing: 0.1em;">HRS</span>
+                        </div>
+                        <span style="font-size: 1.8rem; color: #e63329; font-weight: bold; margin-bottom: 12px;">:</span>
+                        <div style="background: #1a1a1a; border: 1px solid #333; border-radius: 6px; padding: 8px 14px; text-align: center; min-width: 64px;">
+                            <span id="cdMinutes" style="font-size: 2rem; color: #e63329; display: block; line-height: 1;">00</span>
+                            <span style="font-size: 0.65rem; color: #888; letter-spacing: 0.1em;">MIN</span>
+                        </div>
+                        <span style="font-size: 1.8rem; color: #e63329; font-weight: bold; margin-bottom: 12px;">:</span>
+                        <div style="background: #1a1a1a; border: 1px solid #333; border-radius: 6px; padding: 8px 14px; text-align: center; min-width: 64px;">
+                            <span id="cdSeconds" style="font-size: 2rem; color: #e63329; display: block; line-height: 1;">00</span>
+                            <span style="font-size: 0.65rem; color: #888; letter-spacing: 0.1em;">SEC</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-includes">
+                    <div class="price-include-item">
+                        <i data-feather="check-circle" class="text-accent"></i>
+                        <span data-i18n="price_inc_1">Lifetime access to all modules</span>
+                    </div>
+                    <div class="price-include-item">
+                        <i data-feather="check-circle" class="text-accent"></i>
+                        <span data-i18n="price_inc_2">All 4 bonuses included</span>
+                    </div>
+                    <div class="price-include-item">
+                        <i data-feather="check-circle" class="text-accent"></i>
+                        <span data-i18n="price_inc_3">Future updates included</span>
+                    </div>
+                    <div class="price-include-item">
+                        <i data-feather="check-circle" class="text-accent"></i>
+                        <span data-i18n="price_inc_4">30-day money-back guarantee</span>
+                    </div>
+                </div>
+
+                <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary btn-hero btn-pulse full-width"
+                    id="pricingCta" data-i18n="btn_enter_now">
+                    ENTER APEX 90 NOW
+                </a>
+
+                <div class="secure-row">
+                    <i data-feather="lock" class="secure-icon"></i>
+                    <span data-i18n="secure">Secure · SSL Encrypted · Instant Access</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== FAQ ====================== -->
+    <section class="section bg-charcoal" id="faq">
+        <div class="container">
+            <div class="text-center mb-section">
+                <div class="section-label">FAQ</div>
+                <h2 class="section-title centered" data-aos="fade-up" data-i18n="faq_title">FREQUENTLY ASKED QUESTIONS
+                </h2>
+            </div>
+
+            <div class="faq-list" data-aos="fade-up">
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_q1" aria-expanded="false">
+                        Do I need gym equipment?
+                        <i data-feather="chevron-down" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer" data-i18n="faq_a1">
+                        <p>The system is optimized for gym training but includes adapted protocols for home training
+                            with limited equipment. Gym access is recommended for maximum results.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_q2" aria-expanded="false">
+                        How do I access the program?
+                        <i data-feather="chevron-down" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer" data-i18n="faq_a2">
+                        <p>Immediately after purchase you receive an email with your access credentials. Login to the
+                            members area and begin immediately.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_q3" aria-expanded="false">
+                        Is this for beginners?
+                        <i data-feather="chevron-down" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer" data-i18n="faq_a3">
+                        <p>Yes. The system has specific protocols for beginners, intermediate, and advanced athletes.
+                            You choose your level when you access the members area.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_q4" aria-expanded="false">
+                        Is this for men and women?
+                        <i data-feather="chevron-down" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer" data-i18n="faq_a4">
+                        <p>Yes. APEX 90 includes dedicated tracks for men, women, and adults 50+. Each section is
+                            tailored to your specific physiology and goals.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_q5" aria-expanded="false">
+                        I've tried other programs before and failed. Why will this be different?
+                        <i data-feather="chevron-down" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer" data-i18n="faq_a5">
+                        <p>Because you didn't fail — the program failed you. APEX 90 is built around progressive protocols that adapt to your level. No guessing. No randomness. Just a clear system that tells you exactly what to do every single day.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_q6" aria-expanded="false">
+                        How much time do I need per day?
+                        <i data-feather="chevron-down" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer" data-i18n="faq_a6">
+                        <p>45 to 60 minutes, 4 days a week. If you can't commit to that, this program is not for you — and we'd rather be honest than take your money.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_q7" aria-expanded="false">
+                        I'm not in great shape right now. Will this work for me?
+                        <i data-feather="chevron-down" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer" data-i18n="faq_a7">
+                        <p>Especially for you. Module 1 starts with your current baseline — not where you wish you were. You'll have a Level 1 protocol built specifically for beginners.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_q8" aria-expanded="false">
+                        What if I miss a week?
+                        <i data-feather="chevron-down" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer" data-i18n="faq_a8">
+                        <p>Life happens. The 12-Month Evolution Plan in Module 11 shows you exactly how to get back on track without losing your progress.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== FINAL DECISION ====================== -->
+    <section class="section final-section text-center" id="decision">
+        <div class="final-overlay" aria-hidden="true"></div>
+        <div class="container final-content" data-aos="fade-up">
+
+            <div class="section-label" data-i18n="dec_label">YOUR DECISION</div>
+            <h2 class="final-title" data-i18n="dec_title_main">
+                90 DAYS FROM NOW<br>YOU WILL EITHER<br><span class="text-accent">REBUILD YOUR BODY</span><br>OR STAY THE
+                SAME.
+            </h2>
+
+            <div class="decision-duality">
+                <div class="decision-negative" data-aos="fade-right" data-aos-delay="100">
+                    <i data-feather="x-circle" class="decision-icon text-red-icon"></i>
+                    <p data-i18n="dec_1">You stayed the same</p>
+                </div>
+                <div class="decision-vs" data-i18n="dec_or">OR</div>
+                <div class="decision-positive" data-aos="fade-left" data-aos-delay="100">
+                    <i data-feather="check-circle" class="decision-icon text-accent"></i>
+                    <p data-i18n="dec_2">You rebuilt your body with APEX 90</p>
+                </div>
+            </div>
+
+            <p class="final-sub" data-i18n="dec_dif">The difference is the decision you make <strong>right now.</strong>
+            </p>
+
+            <a href="https://pay.kiwify.com/jpOfz3C" class="btn btn-primary btn-hero btn-pulse" id="finalCta"
+                data-i18n="btn_join">JOIN APEX 90</a>
+
+            <div class="final-reassurance">
+                <span><i data-feather="shield"></i> <span data-i18n="reassurance_1">30-Day Guarantee</span></span>
+                <span><i data-feather="lock"></i> <span data-i18n="reassurance_2">Secure Checkout</span></span>
+                <span><i data-feather="zap"></i> <span data-i18n="reassurance_3">Instant Access</span></span>
+            </div>
+
+            <div style="height: 80px;"></div>
+        </div>
+    </section>
+
+    <!-- ====================== FOOTER ====================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">PROJECT APEX 90</div>
+            <div class="footer-links">
+                <a href="#"><span data-i18n="foot_copy">Copyright &copy;</span> <span id="year"></span> Project Apex
+                    90</a>
+                <span class="sep">|</span>
+                <a href="#" data-i18n="foot_terms">Terms of Service</a>
+                <span class="sep">|</span>
+                <a href="#" data-i18n="foot_priv">Privacy Policy</a>
+                <span class="sep">|</span>
+                <a href="mailto:support@haverion.com" data-i18n="foot_support">support@haverion.com</a>
+            </div>
+            <p class="footer-disclaimer" data-i18n="foot_disc">
+                This site is not a part of the Facebook website or Facebook Inc. Additionally, this site is not endorsed
+                by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc. Results may vary. Testimonials and
+                examples used are exceptional results and are not intended to guarantee, promise, represent, and/or
+                assure that anyone will achieve the same or similar results.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="translations.js"></script>
+    <script src="app.js"></script>
+
+    <!-- COUNTDOWN TIMER — standalone, independent of app.js -->
+    <script>
+    (function () {
+        var KEY = 'apex_cd_end';
+        var TOTAL = 48 * 3600;
+        function now() { return Math.floor(Date.now() / 1000); }
+        function pad(n) { return n < 10 ? '0' + n : '' + n; }
+
+        var end = parseInt(localStorage.getItem(KEY) || '0', 10);
+        if (!end || end <= now()) {
+            end = now() + TOTAL;
+            try { localStorage.setItem(KEY, end); } catch (e) {}
+        }
+
+        function tick() {
+            var left = end - now();
+            if (left < 0) { left = 0; }
+            var h = Math.floor(left / 3600);
+            var m = Math.floor((left % 3600) / 60);
+            var s = left % 60;
+            var eH = document.getElementById('cdHours');
+            var eM = document.getElementById('cdMinutes');
+            var eS = document.getElementById('cdSeconds');
+            if (eH) eH.textContent = pad(h);
+            if (eM) eM.textContent = pad(m);
+            if (eS) eS.textContent = pad(s);
+        }
+
+        tick();
+        setInterval(tick, 1000);
+    })();
+    </script>
+
+</body>
+
+</html>
